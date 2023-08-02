@@ -1,0 +1,67 @@
+Inferring oligomeric state from sequences provided in sequences.csv.
+Inferring oligomeric state from sequences provided in sequences.csv.
+Inferring oligomeric state from sequences provided in sequences.csv.
+Sleeping for 9s. Reason: PENDING
+- 11:39:34.322 INFO: Input file = mmseqs2/query_0/msa/in_0.a3m
+
+- 11:39:34.322 INFO: Output file = mmseqs2/query_0/msa/out_0.a3m
+
+- 11:39:35.650 INFO: Input file = mmseqs2/query_1/msa/paired_in.a3m
+
+- 11:39:35.650 INFO: Output file = mmseqs2/query_1/msa/paired_out.a3m
+
+- 11:39:37.947 INFO: Input file = mmseqs2/query_1/msa/in_0.a3m
+
+- 11:39:37.947 INFO: Output file = mmseqs2/query_1/msa/out_0.a3m
+
+- 11:39:38.206 INFO: Input file = mmseqs2/query_1/msa/in_1.a3m
+
+- 11:39:38.206 INFO: Output file = mmseqs2/query_1/msa/out_1.a3m
+
+- 11:39:39.551 INFO: Input file = mmseqs2/query_2/msa/paired_in.a3m
+
+- 11:39:39.551 INFO: Output file = mmseqs2/query_2/msa/paired_out.a3m
+
+- 11:39:41.444 INFO: Input file = mmseqs2/query_2/msa/in_0.a3m
+
+- 11:39:41.444 INFO: Output file = mmseqs2/query_2/msa/out_0.a3m
+
+- 11:39:41.495 INFO: Input file = mmseqs2/query_2/msa/in_1.a3m
+
+- 11:39:41.495 INFO: Output file = mmseqs2/query_2/msa/out_1.a3m
+
+Queries have been parsed. 3 queries found.
+jobname: mmseqs2/query_0
+lengths: [100]
+getting unpaired MSA
+jobname: mmseqs2/query_1
+lengths: [119, 64]
+getting paired MSA
+getting unpaired MSA
+jobname: mmseqs2/query_2
+lengths: [165, 63]
+getting paired MSA
+getting unpaired MSA
+Using weights at  /proj/kuhl_lab/RosettaFold2/RoseTTAFold2/network/weights/RF2_apr23.pt
+Running on GPU
+['query_0', 'query_1', 'query_2']
+['mmseqs2/query_0', 'mmseqs2/query_1', 'mmseqs2/query_2']
+['mmseqs2/query_0/msa.a3m', 'mmseqs2/query_1/msa.a3m', 'mmseqs2/query_2/msa.a3m']
+N=2 L=100
+recycle=0 plddt=0.555 pae=6.707
+recycle=1 plddt=0.641 pae=6.176
+recycle=2 plddt=0.476 pae=8.609
+recycle=3 plddt=0.536 pae=7.988
+runtime=5.22 vram=0.78
+N=2048 L=183
+recycle=0 plddt=0.788 pae=6.254
+recycle=1 plddt=0.833 pae=4.258
+recycle=2 plddt=0.858 pae=3.615
+recycle=3 plddt=0.864 pae=3.506
+runtime=6.12 vram=1.52
+N=1021 L=228
+recycle=0 plddt=0.676 pae=16.422
+recycle=1 plddt=0.645 pae=15.047
+recycle=2 plddt=0.660 pae=14.172
+recycle=3 plddt=0.706 pae=13.352
+runtime=5.27 vram=1.71

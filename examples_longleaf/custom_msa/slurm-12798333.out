@@ -1,0 +1,29 @@
+Inferring oligomeric state from sequences provided in sequences.csv.
+- 15:58:14.706 INFO: Input file = mmseqs2/query_0/msa/paired_in.a3m
+
+- 15:58:14.706 INFO: Output file = mmseqs2/query_0/msa/paired_out.a3m
+
+- 15:58:17.004 INFO: Input file = mmseqs2/query_0/msa/in_0.a3m
+
+- 15:58:17.004 INFO: Output file = mmseqs2/query_0/msa/out_0.a3m
+
+- 15:58:17.034 INFO: Input file = mmseqs2/query_0/msa/in_1.a3m
+
+- 15:58:17.034 INFO: Output file = mmseqs2/query_0/msa/out_1.a3m
+
+Queries have been parsed. 1 queries found.
+jobname: mmseqs2/query_0
+lengths: [128, 147]
+getting paired MSA
+getting unpaired MSA
+Using weights at  /proj/kuhl_lab/RosettaFold2/RoseTTAFold2/network/weights/RF2_apr23.pt
+Running on GPU
+['query_0']
+['mmseqs2/query_0']
+['mmseqs2/query_0/msa.a3m']
+N=2008 L=275
+recycle=0 plddt=0.601 pae=19.906
+recycle=1 plddt=0.727 pae=14.164
+recycle=2 plddt=0.775 pae=10.672
+recycle=3 plddt=0.779 pae=10.141
+runtime=11.05 vram=2.11
