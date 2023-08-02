@@ -5,13 +5,13 @@ GitHub repo for RoseTTAFold2
 
 1. Clone the package
 ```
-git clone https://github.com/uw-ipd/RoseTTAFold2.git
+git clone https://github.com/Kuhlman-Lab/RosettaFold2.git
 cd RoseTTAFold2
 ```
 
 2. Create conda environment
 ```
-# create conda environment for RoseTTAFold2
+# create conda environment for RoseTTAFold2. Here, try RF2-linux.yml and RosettaFold2-linus.yml and use the one that works :).
 conda env create -f RF2-linux.yml
 ```
 You also need to install NVIDIA's SE(3)-Transformer (**please use SE3Transformer in this repo to install**).
@@ -30,29 +30,15 @@ tar xvfz RF2_apr23.tgz
 cd ..
 ```
 
-4. Download sequence and structure databases
-```
-# uniref30 [46G]
-wget http://wwwuser.gwdg.de/~compbiol/uniclust/2020_06/UniRef30_2020_06_hhsuite.tar.gz
-mkdir -p UniRef30_2020_06
-tar xfz UniRef30_2020_06_hhsuite.tar.gz -C ./UniRef30_2020_06
-
-# BFD [272G]
-wget https://bfd.mmseqs.com/bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt.tar.gz
-mkdir -p bfd
-tar xfz bfd_metaclust_clu_complete_id30_c90_final_seq.sorted_opt.tar.gz -C ./bfd
-
-# structure templates (including *_a3m.ffdata, *_a3m.ffindex)
-wget https://files.ipd.uw.edu/pub/RoseTTAFold/pdb100_2021Mar03.tar.gz
-tar xfz pdb100_2021Mar03.tar.gz
-```
-
 ## Examples
 Prepare to run
 ```
 conda activate RF2
 cd example
 ```
+
+See examples_longleaf folder for Amrita's examples of how to use! Below are the instructions that came with the UW version:
+
 
 ### Example 1: predicting the structure of a monomer
 ```
