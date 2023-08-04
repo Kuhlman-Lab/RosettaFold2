@@ -1,5 +1,5 @@
 # RF2
-GitHub repo for RoseTTAFold2
+GitHub repo for RoseTTAFold2 (Kuhlman lab version). WARNING: templates have not been set up yet.
 
 ## Installation
 
@@ -9,9 +9,9 @@ git clone https://github.com/Kuhlman-Lab/RosettaFold2.git
 cd RoseTTAFold2
 ```
 
-2. Create conda environment
+2. Create conda environment. Here, try RF2-linux.yml and RosettaFold2-linus.yml and use the one that works :).
 ```
-# create conda environment for RoseTTAFold2. Here, try RF2-linux.yml and RosettaFold2-linus.yml and use the one that works :).
+# create conda environment for RoseTTAFold2. 
 conda env create -f RF2-linux.yml
 ```
 You also need to install NVIDIA's SE(3)-Transformer (**please use SE3Transformer in this repo to install**).
@@ -37,8 +37,7 @@ conda activate RF2
 cd example
 ```
 
-See examples_longleaf folder for Amrita's examples of how to use! Below are the instructions that came with the UW version:
-
+**See examples_longleaf folder for Amrita's examples of how to use! Below are the instructions that came with the UW version:**
 
 ### Example 1: predicting the structure of a monomer
 ```
